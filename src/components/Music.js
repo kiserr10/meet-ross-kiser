@@ -6,7 +6,7 @@ import{
 	Link
 } from 'react-router-dom';
 
-class About extends Component {
+class Music extends Component {
 	render(){
 		return(
 			<div>
@@ -17,4 +17,4 @@ class About extends Component {
 }
 
 
-export default About;
+export default Music;

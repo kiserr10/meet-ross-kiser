@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
 html, body{
 	margin: 0;
 	padding: 0;
-
 }
 
 h1{
-	font-family: sans-serif;
-	padding-left: 1em;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
 }
 
 li{
 	display: inline-block;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	padding: 1em;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -24,19 +25,31 @@ li{
 li:hover{
 	color: black;
 }
-ul{
-	text-align: center;
-	padding: 0;
+a{
+	text-decoration: none;
+	font-family: 'Poiret One', cursive;
+	color: #7C7C7C;
+	transition: all 750ms linear;
+	font-size: 1.4em;
+	letter-spacing: .1em;
+}
+a:hover{
+	color: black;
 }
 
-div{
+/*div{
 	border: 1px solid black;
-}
+}*/
 
 .header-bar{
 	display: grid;
-	grid-template: 5em / 1fr 1fr 1fr;
-	background-color: #EEEEEE;
+	grid-template: 8em / 1fr;
+	/*background-color: #EEEEEE;*/
+}
+.title-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .main-body{
@@ -44,10 +57,15 @@ div{
 	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
 	height: 50em;
 }
+.main-title{
+	font-size: 5em;
+	font-weight: lighter;
+	letter-spacing: .5em;
+}
 
 .main-links{
 	display: grid;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	justify-content: center;
 }
 .main-prof-pic{
@@ -55,7 +73,38 @@ div{
 	-webkit-clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0 74%);
 	clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0 74%);
 }
+.main-abstract-pic{
+	height: 200px;
+	width: 100%;
+}
 .box-2{
 	grid-area: 1/2/3/3;
-	padding-top: 2em;
+	padding-top: 4em;
+}
+.box-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box-6{
+	grid-area: 	3/1/4/4;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
 }

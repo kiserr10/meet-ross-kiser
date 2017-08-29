@@ -4,15 +4,15 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Passions from './components/Passions';
+import Music from './components/Music';
 import {
-	BroswerRouter as Router,
+	BrowserRouter as Router,
 	Route,
 	Link
 } from 'react-router-dom';
 
 
-class App extends Component {
+export default class App extends Component {
 	constructor(){
 		super();
 
@@ -23,13 +23,24 @@ class App extends Component {
 			<div>
 				<Header />
 				<div className="main-body">
-					<div className="box-1"></div>
-					<div className="box-2">
-						<img className="main-prof-pic" src={require('./headshot.jpg')}/>
+					<div className="box-1">
+						<li className="about-link"><Link to='/about'>About Me</Link></li>
 					</div>
-					<div className="box-3"></div>
-					<div className="box-4"></div>
-					<div className="box-5"></div>
+					<div className="box-2">
+						<img className="main-prof-pic" src={require('./images/headshot.jpg')}/>
+					</div>
+					<div className="box-3">
+						<li className="projects-link"><Link to='/projects'>Tech Projects</Link></li>
+					</div>
+					<div className="box-4">
+						<li className="music-link"><Link to='/music'>Music</Link></li>
+					</div>
+					<div className="box-5">
+						<li className="contact-link"><Link to='/contact'>Contact</Link></li>
+					</div>
+					<div className="box-6">
+						<img className="main-abstract-pic" src={require('./images/creation2.png')}/>
+					</div>
 				</div>
 			</div>
 		);
@@ -39,12 +50,12 @@ class App extends Component {
 ReactDOM.render(
 	<Router>
 		<div>
-			<Route path='/' component={App} />
+			<Route exact path='/' component={App} />
 			<Route path='/about' component={About} />
 			<Route path='/projects' component={Projects} />
 			<Route path='/contact' component={Contact} />
-			<Route path='/passions' component={Passions} />
+			<Route path='/music' component={Music} />
 		</div>
 	</Router>
 
-, document.getElementById('root'));
+	, document.getElementById('root'));
