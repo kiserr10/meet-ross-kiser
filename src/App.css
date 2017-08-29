@@ -19,6 +19,7 @@ li{
 	font-family: sans-serif;
 	color: #7C7C7C;
 	transition: all 750ms linear;
+
 }
 li:hover{
 	color: black;
@@ -28,9 +29,9 @@ ul{
 	padding: 0;
 }
 
-/*div{
+div{
 	border: 1px solid black;
-}*/
+}
 
 .header-bar{
 	display: grid;
@@ -40,8 +41,8 @@ ul{
 
 .main-body{
 	display: grid;
-	grid-template: 1fr / 1fr 1fr 1fr;
-	height: 30em;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	height: 50em;
 }
 
 .main-links{
@@ -51,8 +52,10 @@ ul{
 }
 .main-prof-pic{
 	height: 400px;
-
 	-webkit-clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0 74%);
 	clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0 74%);
-
+}
+.box-2{
+	grid-area: 1/2/3/3;
+	padding-top: 2em;
 }

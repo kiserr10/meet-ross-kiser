@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
 import ReactDOM from 'react-dom';
+import Header from './components/Header';
+
 
 class App extends Component {
 	constructor(){
@@ -18,6 +19,8 @@ class App extends Component {
 						<img className="main-prof-pic" src={require('./headshot.jpg')}/>
 					</div>
 					<div className="box-3"></div>
+					<div className="box-4"></div>
+					<div className="box-5"></div>
 				</div>
 			</div>
 		);
