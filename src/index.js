@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import './styles/App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -26,8 +27,8 @@ export default class App extends Component {
 					<div className="box-1">
 						<li className="about-link"><Link to='/about'>About Me</Link></li>
 					</div>
-					<div className="box-2">
-						<img className="main-prof-pic" src={require('./images/headshot.jpg')}/>
+					<div className="box-2 animated zoomIn">
+						<img className="main-logo" src={require('./images/rk-logo-fix.png')}/>
 					</div>
 					<div className="box-3">
 						<li className="projects-link"><Link to='/projects'>Tech Projects</Link></li>
