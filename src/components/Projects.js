@@ -30,8 +30,9 @@ class Projects extends Component {
 					</div>
 				</div>
 				<div className="projects-box-4">
+					<h1 className="knetic-header">KNETIC</h1>
 					<p className="project-bio-text">
-					A desktop application, and interactive synthesizer where users can create their own sound patches or choose from a list of preset sounds.  Users can also produce sounds by using either the computer keyboard, the digital interface, or by plugging in a midi keyboard.
+					A desktop app, and interactive synthesizer where users can create their own sound patches or choose from a list of preset sounds.  Users can also produce sounds by using either the computer keyboard, the digital interface, or by plugging in a midi keyboard.
 					</p>
 					<p className="project-bio-text">GitHub Link: https://github.com/KNETIC-KRPF</p>
 					<p className="project-bio-text">Tech Used:  React, MongoDB, Monk, Web Audio API, Web MIDI API, Tuna.js, Electron</p>
@@ -43,6 +44,7 @@ class Projects extends Component {
 					</div>
 				</div>
 				<div className="projects-box-6">
+					<h1 className="foris-header">Foris</h1>
 					<p className="project-bio-text">
 						An app for finding outdoor activity events near you!  Users can join or create events and connect with other users or attendees going on the trip
 					</p>
@@ -56,8 +58,9 @@ class Projects extends Component {
 					</div>
 				</div>
 				<div className="projects-box-8">
+					<h1 className="cutting-board-header">Cutting Board</h1>
 					<p className="project-bio-text">
-						A Front-End App where users can browse recipes by meal title or ingredient list and get that specific recipes ingredients and cooking procedures
+						An app where users can browse recipes by meal title or ingredient list and get that specific recipes ingredients and cooking procedures
 					</p>
 					<p className="project-bio-text">GitHub Link:  https://github.com/kiserr10/cutting-board-q1project</p>
 					<p className="project-bio-text">Tech Used:  HTML, CSS3, jQuery, Javascript</p>
