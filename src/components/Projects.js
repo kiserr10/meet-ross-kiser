@@ -26,7 +26,7 @@ class Projects extends Component {
 				</div>
 				<div className="projects-box-3">
 					<div className="knetic-screenshot-container">
-						<a href="https://knetic-768b4.firebaseapp.com"><img className="knetic-screenshot" src={require('../images/knetic-screen-image.png')} /></a>
+						<a href="https://knetic-768b4.firebaseapp.com"><img className="knetic-screenshot hvr-grow" src={require('../images/knetic-screen-image.png')} /></a>
 					</div>
 				</div>
 				<div className="projects-box-4">
@@ -40,7 +40,7 @@ class Projects extends Component {
 				</div>
 				<div className="projects-box-5">
 					<div className="foris-screenshot-container">
-						<a href="https://foris-adventures.firebaseapp.com"><img className="foris-screenshot" src={require('../images/foris-screen-clip.png')} /></a>
+						<a href="https://foris-adventures.firebaseapp.com"><img className="foris-screenshot hvr-grow" src={require('../images/foris-screen-clip.png')} /></a>
 					</div>
 				</div>
 				<div className="projects-box-6">
@@ -54,7 +54,7 @@ class Projects extends Component {
 				</div>
 				<div className="projects-box-7">
 					<div className="cutting-board-screen-clip-container">
-						<a href="https://cutting-board-app.firebaseapp.com"><img className="cutting-board-screenshot" src={require('../images/cutting-board-screen-clip.png')} /></a>
+						<a href="https://cutting-board-app.firebaseapp.com"><img className="cutting-board-screenshot hvr-grow" src={require('../images/cutting-board-screen-clip.png')} /></a>
 					</div>
 				</div>
 				<div className="projects-box-8">
