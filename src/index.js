@@ -37,7 +37,7 @@ export default class App extends Component {
 						<li className="music-link"><Link to='/music'>Music</Link></li>
 					</div>
 					<div className="box-5">
-						<li className="contact-link"><Link to='/contact'>Contact</Link></li>
+						<li className="contact-link"><Link to='/contact'>Contact Me</Link></li>
 					</div>
 					<div className="box-6">
 						<img className="main-abstract-pic" src={require('./images/creation2.png')}/>

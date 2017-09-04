@@ -16,17 +16,17 @@ class Projects extends Component {
 				<div className="projects-box-2">
 					<div className="about-nav-1">
 						<li className="about-home-link"><Link to='/'>Home</Link></li>
-						<li className="about-projects-link"><Link to='/projects'>Tech Projects</Link></li>
+						<li className="about-projects-link"><Link to='/about'>About Me</Link></li>
 						<li className="about-music-link"><Link to='/music'>Music</Link></li>
-						<li className="about-contact-link"><Link to='/contact'>Contact</Link></li>
+						<li className="about-contact-link"><Link to='/contact'>Contact Me</Link></li>
 					</div>
 					<div className="about-nav-2">
-						<img className="main-about-logo animated flipInY" src={require('../images/rk-logo-fix.png')}/>
+						<img className="main-about-logo animated flipInY" src={require('../images/rk-logo-fix.png')} />
 					</div>
 				</div>
 				<div className="projects-box-3">
 					<div className="knetic-screenshot-container">
-						<img className="knetic-screenshot" src={require('../images/knetic-screen-image.png')} />
+						<a href="https://knetic-768b4.firebaseapp.com"><img className="knetic-screenshot" src={require('../images/knetic-screen-image.png')} /></a>
 					</div>
 				</div>
 				<div className="projects-box-4">
@@ -35,10 +35,11 @@ class Projects extends Component {
 					</p>
 					<p className="project-bio-text">GitHub Link: https://github.com/KNETIC-KRPF</p>
 					<p className="project-bio-text">Tech Used:  React, MongoDB, Monk, Web Audio API, Web MIDI API, Tuna.js, Electron</p>
+					<hr />
 				</div>
 				<div className="projects-box-5">
 					<div className="foris-screenshot-container">
-						<img className="foris-screenshot" src={require('../images/foris-screen-clip.png')} />
+						<a href="https://foris-adventures.firebaseapp.com"><img className="foris-screenshot" src={require('../images/foris-screen-clip.png')} /></a>
 					</div>
 				</div>
 				<div className="projects-box-6">
@@ -47,10 +48,11 @@ class Projects extends Component {
 					</p>
 					<p className="project-bio-text">GitHub Link:  https://github.com/mega-Foris</p>
 					<p className="project-bio-text">Tech Used:  Express, postgreSQL, Knex.js, jQuery, SASS, Handlebars</p>
+					<hr />
 				</div>
 				<div className="projects-box-7">
 					<div className="cutting-board-screen-clip-container">
-						<img className="cutting-board-screenshot" src={require('../images/cutting-board-screen-clip.png')} />
+						<a href="https://cutting-board-app.firebaseapp.com"><img className="cutting-board-screenshot" src={require('../images/cutting-board-screen-clip.png')} /></a>
 					</div>
 				</div>
 				<div className="projects-box-8">
@@ -59,6 +61,7 @@ class Projects extends Component {
 					</p>
 					<p className="project-bio-text">GitHub Link:  https://github.com/kiserr10/cutting-board-q1project</p>
 					<p className="project-bio-text">Tech Used:  HTML, CSS3, jQuery, Javascript</p>
+					<hr />
 				</div>
 				<div className="projects-box-9"></div>
 				<div className="projects-box-10"></div>
