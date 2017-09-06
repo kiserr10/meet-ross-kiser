@@ -11,14 +11,16 @@ class Header extends Component {
 	render(){
 		return(
 			<div className="header-bar">
-				<div className="left-header-box">
-					<img className="left-bracket" src={require('../images/left-bracket.png')}/>
-				</div>
-				<div className="main-links">
-					<h1 className="main-title">Ross Kiser</h1>
-				</div>
-				<div className="right-header-box">
-					<img className="right-bracket" src={require('../images/right-bracket.png')}/>
+				<div className="front-page-header">
+					<div className="left-header-box">
+						<img className="left-bracket" src={require('../images/left-bracket1.png')}/>
+					</div>
+					<div className="main-links">
+						<h1 className="main-title">Ross Kise<span className="big-r">r</span></h1>
+					</div>
+					<div className="right-header-box">
+						<img className="right-bracket" src={require('../images/right-bracket.png')}/>
+					</div>
 				</div>
 				<div className="sub-title-box animated fadeInUp">
 					<h5 className="sub-title">

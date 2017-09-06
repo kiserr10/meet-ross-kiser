@@ -9,7 +9,7 @@ import{
 class Projects extends Component {
 	render(){
 		return(
-			<div className="main-body-projects">
+			<div className="main-body-projects container">
 				<div className="projects-box-1 animated fadeInUp">
 					<h1>Tech Projects:</h1>
 				</div>
@@ -66,8 +66,6 @@ class Projects extends Component {
 					<p className="project-bio-text">Tech Used:  HTML, CSS3, jQuery, Javascript</p>
 					<hr />
 				</div>
-				<div className="projects-box-9"></div>
-				<div className="projects-box-10"></div>
 			</div>
 		);
 	}
