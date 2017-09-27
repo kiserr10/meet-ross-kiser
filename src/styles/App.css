@@ -73,6 +73,7 @@ a:hover{
 	grid-template: 8em 2em / 1fr auto 1fr);
 	justify-content: center;
 	align-items: center;
+	margin-top: 1.2em;
 }
 .title-box{
 	display: flex;
@@ -122,7 +123,7 @@ a:hover{
 	font-size: 1.8em;
 	letter-spacing: 1em;
 	margin: 0;
-	padding-top: .5em;
+	padding-top: 1em;
 }
 .left-bracket{
 	height: 100px;
@@ -312,6 +313,13 @@ a:hover{
 	padding: 1em;
 	padding-right: 10em;
 }
+.projects-box-9{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 1em;
+	padding-right: 10em;
+}
 
 .knetic-screenshot-container{
 	display: inline-block;
@@ -322,6 +330,22 @@ a:hover{
 	border-radius: 50%;
 }
 .knetic-screenshot{
+	height: 100%;
+	width: auto;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+	transition: all 500ms linear;
+}
+.ftm-screen-clip-container{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ftm-screenshot{
 	height: 100%;
 	width: auto;
 	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
@@ -376,6 +400,19 @@ a:hover{
 	-webkit-filter: grayscale(0%);
 	transition: all 500ms linear;
 }
+.ftm-screenshot{
+	height: 100%;
+	width: auto;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+	transition: all 500ms linear;
+}
+.ftm-screenshot:hover{
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	transition: all 500ms linear;
+}
 
 .project-bio-text{
 	padding: 1em;
@@ -403,6 +440,13 @@ a:hover{
 }
 .cutting-board-header{
 	font-family: 'Parisienne', cursive;
+	padding-left: .45em;
+	padding-top: .8em;
+	padding-bottom: .7em;
+}
+.ftm-header{
+	font-family: courier new;
+	text-decoration: none;
 	padding-left: .45em;
 	padding-top: .8em;
 	padding-bottom: .7em;

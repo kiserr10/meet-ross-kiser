@@ -24,6 +24,25 @@ class Projects extends Component {
 						<img className="main-about-logo animated flipInY" src={require('../images/rk-logo-fix.png')} />
 					</div>
 				</div>
+
+				<div className="projects-box-9">
+					<div className="ftm-screen-clip-container">
+						<a href="https://farmtomarket.solutions"><img className="ftm-screenshot hvr-grow" src={require('../images/ftm-screenshot.png')} /></a>
+					</div>
+				</div>
+
+				<div className="projects-box-10">
+					<h1 className="ftm-header">Farm To Market</h1>
+					<p className="project-bio-text">
+						An intuitive and interactive platform for users, farmers, and markets to connect and exchange information
+					</p>
+					<p className="project-bio-text">GitHub Link:  https://github.com/kiserr10/meet-ross-kiser</p>
+					<p className="project-bio-text">Tech Used:  React, Chart.js, Express, postgreSQL, Knex.js, SASS</p>
+					<hr />
+				</div>
+
+
+
 				<div className="projects-box-3">
 					<div className="knetic-screenshot-container">
 						<a href="https://knetic-768b4.firebaseapp.com"><img className="knetic-screenshot hvr-grow" src={require('../images/knetic-screen-image.png')} /></a>
