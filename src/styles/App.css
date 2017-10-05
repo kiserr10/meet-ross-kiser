@@ -58,9 +58,9 @@ a:hover{
 	font-weight: bold;
 }
 
-/*div{
+div{
 	border: 1px solid black;
-}*/
+}
 
 .container {
 	width: 95%;
@@ -491,7 +491,7 @@ a:hover{
 
 .contact-main-body{
 	display: grid;
-	grid-template: 7em 1fr 1fr 1fr 1fr / 1fr 1fr;
+	grid-template: 13em / 1fr;
 	height: 100vh;
 }
 
@@ -508,8 +508,53 @@ a:hover{
 	display: grid;
 	grid-template: 7em / 1fr 1fr;
 }
+.contact-box-3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.email-logo{
+	margin: 3em;
+}
+.email-logo{
+  /*height: 50px;*/
+  /*width: 50px;*/
+  /*border-radius: 50%;*/
+  /*border: 5px solid black;*/
+  /*margin: auto;*/
+  -webkit-animation: rotateY 3s infinite linear;
+  animation: rotateY 3s infinite linear;
+	animation-fill-mode: forwards;
+}
 
-
+@-webkit-keyframes rotateY {
+  to { -webkit-transform: rotateY(360deg); }
+}
+@keyframes rotateY {
+  to { transform: rotateY(360deg); }
+}
+.linkedIn-logo{
+	-webkit-animation: rotateY 3.3s infinite linear;
+	animation: rotateY 3.3s infinite linear;
+	margin: 3em;
+}
+.github-logo{
+	-webkit-animation: rotateY 2.3s infinite linear;
+	animation: rotateY 2.3s infinite linear;
+	margin: 3em;
+}
+.facebook-logo{
+	margin: 3em;
+}
+.insta-logo{
+	margin: 3em;
+}
+.beatport-logo{
+	margin: 3em;
+}
+.soundcloud-logo{
+	margin: 3em;
+}
 
 /* Music Page Styles */
 .music-main-body{

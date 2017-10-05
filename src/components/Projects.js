@@ -36,8 +36,8 @@ class Projects extends Component {
 					<p className="project-bio-text">
 						An intuitive and interactive platform for users, farmers, and markets to connect and exchange information
 					</p>
-					<p className="project-bio-text">GitHub Link:  https://github.com/kiserr10/meet-ross-kiser</p>
-					<p className="project-bio-text">Tech Used:  React, Chart.js, Express, postgreSQL, Knex.js, SASS</p>
+					<p className="project-bio-text">GitHub Link:  https://github.com/kiserr10/ftm-capstone-CLIENT</p>
+					<p className="project-bio-text">Tech Used:  React, Chart.js, Express, postgreSQL, Knex.js</p>
 					<hr />
 				</div>
 
