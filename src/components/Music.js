@@ -14,6 +14,7 @@ class Music extends Component {
 				<Header3 />
 				<div className="music-main-body">
 					<h1>UNDER CONSTRUCTION</h1>
+					<h3>Thank You For Your Patience!</h3>
 				</div>
 			</div>
 		);
