@@ -15,6 +15,9 @@ class Music extends Component {
 				<div className="music-main-body">
 					<h1>UNDER CONSTRUCTION</h1>
 				</div>
+				<div className="music-background-splash">
+					<img className="music-image" src={require('../images/music-gear.png')} height="700px"/>
+				</div>
 			</div>
 		);
 	}
