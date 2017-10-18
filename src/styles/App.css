@@ -543,20 +543,39 @@ a:hover{
 /* Music Page Styles */
 .music-main-body{
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 20vh;
-	margin-top: 3em;
+	height: 50vh;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	background: url('../images/speaker.png');
 }
+
 .music-image{
-	-webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
-	clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 19%, 100% 4%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 19%, 100% 4%, 100% 100%, 0% 100%);
 	width: 100%;
 	margin: 0;
 	display: flex;
 	bottom: 0;
+	background-color: red;
 }
-
+.music-player{
+	display: flex;
+	float: left;
+	margin: 4em;
+	width: 50%;
+}
+.music-player-2{
+	display: flex;
+	float: right;
+	margin: 4em;
+	width: 50%;
+}
+.music-background-splash{
+	margin-top: 8em;
+}
+.logo{
+	display: none;
+}
 /* Responsive Design Code */
 @media only screen and (max-width: 768px){
 	.main-body{
