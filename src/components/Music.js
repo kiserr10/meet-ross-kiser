@@ -4,12 +4,6 @@ import Header3 from './Header3.js';
 import SpotifyPlayer from 'react-spotify-player';
 
 
-// import{
-// 	BrowserRouter as Router,
-// 	Route,
-// 	Link
-// } from 'react-router-dom';
-
 const size = {
 	width: '100%',
 	height: 400,
@@ -24,7 +18,7 @@ class Music extends Component {
 			<div>
 				<Header3 />
 				<div className="music-main-body">
-					<div className="music-player">
+					<div className="music-player-1">
 						<SpotifyPlayer
 							uri="spotify:artist:0g3xKT5GqkAimVN7eec8G9"
 							size={size}
