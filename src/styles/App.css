@@ -486,7 +486,7 @@ a:hover{
 .contact-main-body{
 	display: grid;
 	grid-template: 13em / 1fr;
-	height: 100vh;
+	height: 600px;
 }
 
 .contact-box-2{
@@ -845,5 +845,20 @@ a:hover{
 	}
 	.music-background-splash, .music-main-body{
 		margin: 0;
+	}
+	.reach-out-text{
+		font-size: 1.6em;
+	}
+	.contact-box-3{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.contact-texture-image{
+		bottom: 0;
+		position: absolute;
+	}
+	.contact-box-4{
+		position: relative;
 	}
 }

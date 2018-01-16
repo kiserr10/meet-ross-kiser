@@ -11,7 +11,7 @@ class Header2 extends Component {
 		return(
 			<div className="contact-header">
 				<div className="about-box-1 animated fadeInUp">
-					<h1>I Would Love to Hear From You!</h1>
+					<h1 className="reach-out-text">I Would Love to Hear From You!</h1>
 				</div>
 				<div className="contact-box-2">
 					<div className="contact-nav">

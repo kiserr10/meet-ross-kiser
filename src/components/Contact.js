@@ -38,14 +38,16 @@ class Contact extends Component {
 						<a href="mailto:kiserr10@gmail.com"><img className="email-logo hvr-grow" src={require('../images/003-gmail-envelope.png')} height="65px" /></a>
 						<a href="https://www.linkedin.com/in/rosskiser/"><img className="linkedIn-logo hvr-grow" src={require('../images/005-linkedin-logo-1.png')} height="65px" /></a>
 						<a href="https://github.com/kiserr10"><img className="github-logo hvr-grow" src={require('../images/github-logo.png')} height="65px" /></a>
+						<br />
 						<a href="https://www.facebook.com/kiserr"><img className="facebook-logo hvr-grow" src={require('../images/002-facebook-black-social-button-circle.png')} height="65px" /></a>
 						<a href="https://www.instagram.com/kiserr/"><img className="insta-logo hvr-grow" src={require('../images/004-instagram-logo.png')} height="65px" /></a>
 						<a href="https://www.beatport.com/artist/ross-kiser/607262"><img className="beatport-logo hvr-grow" src={require('../images/beatport_2-256.png')} height="65px" /></a>
+						<br />
 						<a href="https://soundcloud.com/rosskiserofficial"><img className="soundcloud-logo hvr-grow" src={require('../images/soundcloud-logo.png')} height="65px" /></a>
 					</div>
-					<div className="contact-box-4">
-						<img className="contact-texture-image" src={require('../images/creation.png')} height="600px" />
-					</div>
+				</div>
+				<div className="contact-box-4">
+					<img className="contact-texture-image" src={require('../images/creation.png')} height="600px" />
 				</div>
 			</div>
 		);
