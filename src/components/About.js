@@ -9,7 +9,7 @@ import{
 class About extends Component {
 	render(){
 		return(
-			<div className="about-main">
+			<div className="about-main container">
 				<div className="about-box-1 animated fadeInUp">
 					<h1>About Me:</h1>
 				</div>
@@ -25,10 +25,8 @@ class About extends Component {
 					</div>
 				</div>
 				<div className="about-box-3">
-					<div className="my-bio">
-						<p>	Long before I became a web developer, technology has been central to my creative practice. I self-taught my way into audio engineering and started my own electronic music record label which has gone on to sign several internationally acclaimed acts. After developing this part of my life for over half a decade, I encountered the world of code. A deeper dimension of technology with which I instantly clicked, it was the perfect alignment of design, creativity, and problem solving that I had been seeking. In 2017, I decided to dive in fully and immerse myself in the culture of development by attending Galvanize. I hope to use these new skillsets to have a creative avenue to influence the worlds of my other passions, such as music, rock climbing, and food.
-						</p>
-					</div>
+					<p className="my-bio">	Long before I became a web developer, technology has been central to my creative practice. I self-taught my way into audio engineering and started my own electronic music record label which has gone on to sign several internationally acclaimed acts. After developing this part of my life for over half a decade, I encountered the world of code. A deeper dimension of technology with which I instantly clicked, it was the perfect alignment of design, creativity, and problem solving that I had been seeking. In 2017, I decided to dive in fully and immerse myself in the culture of development by attending Galvanize. I hope to use these new skillsets to have a creative avenue to influence the worlds of my other passions, such as music, rock climbing, and food.
+					</p>
 				</div>
 				<div className="about-box-4">
 					<img className="main-prof-pic" src={require('../images/headshot.jpg')}/>

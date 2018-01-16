@@ -38,7 +38,6 @@ class Projects extends Component {
 					</p>
 					<p className="project-bio-text">GitHub Link:  https://github.com/kiserr10/ftm-capstone-CLIENT</p>
 					<p className="project-bio-text">Tech Used:  React, Chart.js, Express, postgreSQL, Knex.js</p>
-					<hr />
 				</div>
 
 
@@ -55,7 +54,6 @@ class Projects extends Component {
 					</p>
 					<p className="project-bio-text">GitHub Link: https://github.com/KNETIC-KRPF</p>
 					<p className="project-bio-text">Tech Used:  React, MongoDB, Monk, Web Audio API, Web MIDI API, Tuna.js, Electron</p>
-					<hr />
 				</div>
 				<div className="projects-box-5">
 					<div className="foris-screenshot-container">
@@ -69,7 +67,6 @@ class Projects extends Component {
 					</p>
 					<p className="project-bio-text">GitHub Link:  https://github.com/mega-Foris</p>
 					<p className="project-bio-text">Tech Used:  Express, postgreSQL, Knex.js, jQuery, SASS, Handlebars</p>
-					<hr />
 				</div>
 				<div className="projects-box-7">
 					<div className="cutting-board-screen-clip-container">
@@ -83,7 +80,6 @@ class Projects extends Component {
 					</p>
 					<p className="project-bio-text">GitHub Link:  https://github.com/kiserr10/cutting-board-q1project</p>
 					<p className="project-bio-text">Tech Used:  HTML, CSS3, jQuery, Javascript</p>
-					<hr />
 				</div>
 			</div>
 		);
