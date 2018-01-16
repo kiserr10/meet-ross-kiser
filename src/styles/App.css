@@ -537,19 +537,25 @@ a:hover{
 /* Music Page Styles */
 .music-main-body{
 	display: flex;
-	height: 50vh;
+	height: 700px;
+	width: 100%;
 	margin-top: 5em;
 	margin-bottom: 5em;
 	background: url('../images/speaker.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: left top;
 }
 
 .music-image{
 	-webkit-clip-path: polygon(0 19%, 100% 4%, 100% 100%, 0% 100%);
 	clip-path: polygon(0 19%, 100% 4%, 100% 100%, 0% 100%);
+	height: 100%;
 	width: 100%;
 	margin: 0;
 	display: flex;
 	bottom: 0;
+	position: relative;
 }
 .music-player-1{
 	display: flex;
@@ -559,7 +565,6 @@ a:hover{
 }
 .music-player-2{
 	display: flex;
-	float: right;
 	margin: 4em;
 	width: 50%;
 }
@@ -659,6 +664,10 @@ a:hover{
 	.projects-box-1{
 		padding: 0;
 	}
+	.contact-nav{
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 @media only screen and (max-width: 992px){
@@ -687,8 +696,26 @@ a:hover{
 		align-content: center;
 		height: 100%;
 	}
-
-
+	.music-main-body{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		width: 100%;
+		height: 100%;
+	}
+	.contact-header{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact-box-2{
+		display: flex;
+		flex-direction: row;
+	}
+	.contact-main-logo{
+		display: none;
+	}
 	.about-main .about-nav-2,
 	.main-body-projects .about-nav-2
 	{
@@ -798,5 +825,25 @@ a:hover{
 		padding: 0;
 		display: flex;
 		justify-content: center;
+	}
+	.music-player-1{
+		display: flex;
+		align-self: center;
+		min-width: 200px;
+		position: relative;
+	}
+	.music-player-2{
+		display: flex;
+		align-self: center;
+		min-width: 200px;
+		position: relative;
+	}
+	.contact-nav{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+	.music-background-splash, .music-main-body{
+		margin: 0;
 	}
 }

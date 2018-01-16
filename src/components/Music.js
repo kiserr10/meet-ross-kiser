@@ -36,7 +36,7 @@ class Music extends Component {
 					</div>
 				</div>
 				<div className="music-background-splash">
-					<img className="music-image" src={require('../images/music-gear.png')} height="700px"/>
+					<img className="music-image" src={require('../images/music-gear.png')} />
 				</div>
 			</div>
 		);
