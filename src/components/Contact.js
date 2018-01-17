@@ -31,7 +31,7 @@ class Contact extends Component {
 
 	render(){
 		return(
-			<div>
+			<div className="contact-page">
 				<Header2 />
 				<div className="contact-main-body">
 					<div className="contact-box-3">
@@ -42,6 +42,8 @@ class Contact extends Component {
 						<a href="https://www.instagram.com/kiserr/"><img className="insta-logo hvr-grow" src={require('../images/004-instagram-logo.png')} /></a>
 						<a href="https://www.beatport.com/artist/ross-kiser/607262"><img className="beatport-logo hvr-grow" src={require('../images/beatport_2-256.png')} /></a>
 						<a href="https://soundcloud.com/rosskiserofficial"><img className="soundcloud-logo hvr-grow" src={require('../images/soundcloud-logo.png')} /></a>
+					</div>
+					<div className="filler">
 					</div>
 				</div>
 				<div className="contact-box-4">
