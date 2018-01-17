@@ -486,7 +486,7 @@ a:hover{
 .contact-main-body{
 	display: grid;
 	grid-template: 13em / 1fr;
-	height: 600px;
+	max-height: 600px;
 }
 
 .contact-box-2{
@@ -506,6 +506,11 @@ a:hover{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.contact-box-3 a img{
+	display: flex;
+	margin: 2em;
+	height: 65px;
 }
 .email-logo{
 	margin: 2em;
@@ -586,10 +591,6 @@ a:hover{
 		flex-direction: column;
 		justify-content: center;
 	}
-	/* .main-body-projects {
-		margin-left: 40px;
-		margin-right: 40px;
-	} */
 	.main-logo{
 		position: absolute;
 		height: 150px;
@@ -829,13 +830,13 @@ a:hover{
 	.music-player-1{
 		display: flex;
 		align-self: center;
-		min-width: 200px;
+		min-width: 300px;
 		position: relative;
 	}
 	.music-player-2{
 		display: flex;
 		align-self: center;
-		min-width: 200px;
+		min-width: 300px;
 		position: relative;
 	}
 	.contact-nav{
@@ -853,12 +854,23 @@ a:hover{
 		display: flex;
 		flex-direction: row;
 	}
-
-	.contact-texture-image{
+	.contact-box-3 a img{
+		display: flex;
+		margin: 1em;
+		height: 35px;
+	}
+	@media only screen and (max-width: 480px){
+		.contact-box-3 a img{
+			display: flex;
+			margin: .3em;
+			height: 25px;
+		}
+	}
+	/* .contact-texture-image{
 		bottom: 0;
 		position: absolute;
 	}
 	.contact-box-4{
 		position: relative;
-	}
+	} */
 }
