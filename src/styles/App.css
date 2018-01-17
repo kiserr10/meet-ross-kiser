@@ -324,7 +324,10 @@ a:hover{
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	border-radius: 50%;
+	-khtml-border-radius: 50%;
 }
 .knetic-screenshot{
 	height: 100%;
@@ -340,7 +343,10 @@ a:hover{
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	border-radius: 50%;
+	-khtml-border-radius: 50%;
 }
 .ftm-screenshot{
 	height: 100%;
@@ -361,7 +367,10 @@ a:hover{
 	width: 300px;
 	height: 300px;
 	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
 	border-radius: 50%;
+	-khtml-border-radius: 50%;
 }
 .foris-screenshot{
 	height: 300px;
@@ -382,7 +391,10 @@ a:hover{
   width: 300px;
   height: 300px;
   overflow: hidden;
-  border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-khtml-border-radius: 50%;
 }
 .cutting-board-screenshot{
 	height: 100%;
