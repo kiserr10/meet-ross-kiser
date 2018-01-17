@@ -39,6 +39,9 @@ export default class App extends Component {
 					<div className="box-5">
 						<li className="contact-link"><Link to='/contact'>Contact Me</Link></li>
 					</div>
+					<div className="box-7">
+						<img className="main-logo" src={require('./images/rk-logo-fix.png')}/>
+					</div>
 					<div className="box-6">
 						<img className="main-abstract-pic" src={require('./images/creation2.png')}/>
 					</div>

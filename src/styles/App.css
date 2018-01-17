@@ -15,7 +15,9 @@ html, body{
 	margin: 0 auto;
 	padding: 0;
 }
-
+/* div{
+	border: 1px solid black;
+} */
 h1{
 	font-family: 'Poiret One', cursive;
 	margin: 0;
@@ -159,10 +161,10 @@ a:hover{
 	clip-path: polygon(50% 0%, 100% 49%, 50% 100%, 0 74%);
 }
 .main-logo{
-	height: 400px;
+	max-height: 400px;
 }
 .main-abstract-pic{
-	height: 30vh;
+	max-height: 30vh;
 	width: 100%;
 }
 .box-2{
@@ -170,6 +172,7 @@ a:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* border: 1px solid black; */
 
 }
 .box-1{
@@ -243,7 +246,7 @@ a:hover{
 	width: 100%;
 }
 .main-logo-about{
-	height: 110px;
+	max-height: 110px;
 }
 .about-box-2{
 	display: grid;
@@ -533,11 +536,14 @@ a:hover{
 .soundcloud-logo{
 	margin: 2em;
 }
+.contact-box-4{
+	position: relative;
+	/* bottom: 0; */
+}
 .contact-texture-image{
 	width: 100%;
- 	bottom:0px;
+ 	/* bottom: 0px; */
 }
-
 
 /* Music Page Styles */
 .music-main-body{
@@ -579,35 +585,15 @@ a:hover{
 .logo{
 	display: none;
 }
+
+.box-7{
+	display: none;
+}
+
+
 /* Responsive Design Code */
-@media only screen and (max-width: 768px){
-	.container {
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.main-body, .about-main{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	.main-logo{
-		position: absolute;
-		height: 150px;
-		bottom: 7em;
-	}
-	.main-body-projects .about-nav-2{
-		display: none;
-	}
-	.main-body a{
-		font-size: 1.2em;
-	}
-	.main-body-projects a{
-		font-size: 1.6em;
-	}
-	.about-main a{
-		font-size: 1.6em;
-	}
+
+@media only screen and (max-width: 992px){
 	.box-2{
 		-o-transition-property: none !important;
 		-moz-transition-property: none !important;
@@ -626,52 +612,8 @@ a:hover{
 		-o-animation: none !important;
 		-ms-animation: none !important;
 		animation: none !important;
+		display: none;
 	}
-	.header-bar{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.sub-title{
-		font-size: 1.2em;
-		letter-spacing: .2em;
-		margin-bottom: 40px;
-	}
-	.left-bracket{
-		height: 2.8em;
-	}
-	.right-bracket{
-		height: 2.8em;
-	}
-	.main-links .main-title{
-		font-size: 2.8em;
-	}
-	.main-body-projects{
-		display: grid;
-		grid-template-columns: 1fr;
-		max-width: 90%;
-		justify-content: center;
-		align-content: center;
-		height: 100%;
-	}
-	.projects-box-4{
-		grid-template: 1fr;
-		flex-direction: column;
-		width: 100%;
-		justify-content: center;
-		align-content: center;
-	}
-	.projects-box-1{
-		padding: 0;
-	}
-	.contact-nav{
-		display: flex;
-		flex-direction: column;
-	}
-}
-
-@media only screen and (max-width: 992px){
 	.container{
 		display: flex;
 		flex-direction: column;
@@ -859,6 +801,106 @@ a:hover{
 		margin: 1em;
 		height: 35px;
 	}
+	.box-7{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+@media only screen and (max-width: 768px){
+	.container {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.main-body, .about-main{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.main-logo{
+		/* position: absolute; */
+		max-height: 150px;
+		bottom: 7em;
+	}
+	.main-body-projects .about-nav-2{
+		display: none;
+	}
+	.main-body a{
+		font-size: 1.2em;
+	}
+	.main-body-projects a{
+		font-size: 1.6em;
+	}
+	.about-main a{
+		font-size: 1.6em;
+	}
+	.box-2{
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		display: none;
+	}
+	.header-bar{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.sub-title{
+		font-size: 1.2em;
+		letter-spacing: .2em;
+		margin-bottom: 40px;
+	}
+	.left-bracket{
+		height: 2.8em;
+	}
+	.right-bracket{
+		height: 2.8em;
+	}
+	.main-links .main-title{
+		font-size: 2.8em;
+	}
+	.main-body-projects{
+		display: grid;
+		grid-template-columns: 1fr;
+		max-width: 90%;
+		justify-content: center;
+		align-content: center;
+		height: 100%;
+	}
+	.projects-box-4{
+		grid-template: 1fr;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-content: center;
+	}
+	.projects-box-1{
+		padding: 0;
+	}
+	.contact-nav{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
 	@media only screen and (max-width: 480px){
 		.contact-box-3 a img{
 			display: flex;
@@ -866,11 +908,4 @@ a:hover{
 			height: 25px;
 		}
 	}
-	/* .contact-texture-image{
-		bottom: 0;
-		position: absolute;
-	}
-	.contact-box-4{
-		position: relative;
-	} */
 }
